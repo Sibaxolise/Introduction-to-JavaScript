@@ -1,1 +1,24 @@
 What is Javascript?
+
+
+Strings
+* Strings in JavaScript are primitive data types and immutable, used for displaying and working with text.
+* They are fundamental concepts in programming and can be created and viewed using single quotes, double quotes, or backticks.
+* Strings using double quotes and single quotes are the same, but there is no official preference.
+* Template literals use backticks and work similarly to regular strings.
+* To view the output, print it to the console or send an alert popup to the browser. 
+* Concatenating strings, storing strings in variables, and using quotes, apostrophes, and newlines within strings are also important.
+
+Arrays
+* Array is a special data structure designed for storing ordered collections, as objects are not suitable for such situations.
+
+Functions
+A function is a group of reusable code that can be called anywhere in a program, reducing the need for repetitive code. 
+* JavaScript supports modular code writing using functions, allowing programmers to divide large programs into manageable ones. 
+* To write your own functions in JavaScript, define them using the function keyword, unique function name, parameter list, and statement block surrounded by curly braces.
+
+Boolens
+A Boolean is a value that represents try or false.
+* They are used to evaluate certain circumstances.
+* Boolens are also used in of statements. 
+* With the if statement logical order is important.
