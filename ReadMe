@@ -377,3 +377,96 @@ Event Handlers for All HTML5 Elements & document & window Objects
 • Ontoggle: Invoked when the details element is opened or closed.
 • onvolumechange: Invoked when volume or muted attribute changes.
 • onwaiting: Expects next frame to become available.
+
+Dynamic HTML
+• Combines CSS and JavaScript to create dynamic web pages.
+• Changes can range from text font, color, and style to page content and object movement.
+• Changes to HTML objects can be made through class changes or using the object's style property.
+• JavaScript functions can be designed to reference objects directly, pass an object id as an argument, or access objects using an event.
+
+Static vs dynamic website
+ Static Website:
+ • Content is fixed and pre-written
+ • Same for all visitors
+ • Faster loading times
+ • Easier to maintain
+ • Less flexible for updates
+ Dynamic Website:
+ • Content can change based on user or situation
+ • More interactive and personalized experience
+ • Slower loading times
+ • More complex to maintain
+ • More flexible for updates
+
+Date Object
+• The Date object is a built-in object in JavaScript that stores date and time.
+• It provides methods for formatting and managing this data.
+• A new Date instance without arguments creates an object corresponding to the current date and time.
+• The current date and time are broken up and printed in a human-readable format.
+• The date is understood based on a timestamp derived from Unix time, which is the number of milliseconds since midnight on January 1st, 1970.
+• Epoch time, also known as zero time, is represented by the date string 01 January, 1970 00:00:00 Universal Time (UTC) and the 0 timestamp.
+• Both the timestamp and the date string are important concepts in JavaScript.
+• There are four formats for creating a new Date in JavaScript, including the current time default, timestamp, date string, or specifying specific dates and times.
+• The timestamp method uses a negative number for dates prior to Epoch time.
+• The date and time method sets seconds and milliseconds to 0.
+• Missing numbers default to 0, but order cannot be changed.
+• July month is represented by 6, not 7, as date and time numbers start from 0.
+
+Retrieving the Date with get  
+• Date components can be accessed using built-in methods.
+• Methods return date parts relative to local timezone.
+• Each method starts with 'get' and returns a relative number.
+• Table of 'get' methods of the Date object provided.
+
+Modifying the Date with set  
+• Set methods modify date components.
+• Get methods retrieve specific date components.
+• Detailed chart of set methods for Date object.
+• Can modify one, more, or all date components.
+
+Date Methods with UTC  
+• Get methods retrieve date components based on user's local timezone settings.
+• GetUTC methods calculate time based on UTC (Coordinated Universal Time) standard.
+• UTC methods for JavaScript Date object display current hour and UTC timezone hour.
+• UTC provides an international time standard reference, ensuring code consistency across timezones.
+
+Adding and Subtracting from a Given Date  
+Date Setters Overview
+• Expect interval-appropriate values.
+• SetDays() setter expects day from 1 to 31.
+• Day values outside range rolled over/back into next/preceding month(s).
+
+Keyboard Events
+Keydown Event:
+• User presses down a key on the keyboard.
+• Handled with the onkeydown event handler.
+• An alert message is displayed when the keydown event occurs.
+
+Keyup Event:
+• User releases a key on the keyboard.
+• Handled with the onkeyup event handler.
+• An alert message is displayed when the keyup event occurs.
+
+Keypress Event:
+• User presses down a key with a character value.
+• Handled with the onkeypress event handler.
+
+Form Events
+• Fired when form control receives/losses focus.
+• Fired when user modifies form control value.
+• Examples: typing text, selecting options.
+• Here are some of the most important form events and their event handlers:
+  • Focus Event (onfocus): Handles user's focus on an element on a web page.
+  • Blur Event (onblur): Handles user's shift of focus from a form element or window.
+  • Change Event (onchange): Handles user's alteration of form element value.
+  • Submit Event (onsubmit): Handles user's submission of a form on a web page.
+  • Alert messages can be displayed when the user submits a form to the server.
+
+Document/Window Events
+Document/Window Events and Event Handlers
+
+• Load Event: Triggered when a web page finishes loading.
+• Unload Event: Handled when a user leaves the current web page.
+• Resize Event: Handled when a user resizes the browser window.
+• Onresize Event: Handled when the browser window is minimized or maximized.
+• Alert messages displayed when the user resizes the window to a new width and height.
