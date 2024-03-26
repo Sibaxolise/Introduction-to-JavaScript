@@ -24,47 +24,55 @@ A Boolean is a value that represents try or false.
 * With the if statement logical order is important.
 
 Type Conversions
-In JavaScript, type conversion is the process of changing data from one type to another. This can happen automatically by JavaScript itself, or you can explicitly convert a value using a function.
+* In JavaScript, type conversion is the process of changing data from one type to another. This can happen automatically by JavaScript itself, or you can explicitly convert a value using a function.
 
 There are three main types of conversions:
+- To string: This is common when you want to display a value or use it in a string context. You can use the String() function or the toString() method of the value itself.
+- To number: This is important for mathematical operations. You can use the Number() function to convert strings or booleans to numbers.
+- To boolean: This is used in logical operations. You can use the Boolean() function, but JavaScript also has some automatic conversions where certain values like 0, empty strings, and null become false.
 
-To string: This is common when you want to display a value or use it in a string context. You can use the String() function or the toString() method of the value itself.
+Methods Used For Numbers 
+• Number(): Returns converted number.
+• ParseFloat(): Parses argument to return float.
+• ParseInt(): Parses argument to return integer.
 
-To number: This is important for mathematical operations. You can use the Number() function to convert strings or booleans to numbers.
+JavaScript Methods
+• toString(): Converts numeric values into a string.
+• toExponential(): Rounds numbers and writes them with exponential notation.
+• toFixed(): Converts numbers into a string with a specific decimal amount.
+• toPrecision(): Converts numbers into a string with a specified length.
+• valueOf(): Returns a number as a number, converting numbers into primitive values.
 
-To boolean: This is used in logical operations. You can use the Boolean() function, but JavaScript also has some automatic conversions where certain values like 0, empty strings, and null become false.
+Converting Variables to Numbers  
+• Number(): Converts JavaScript variables into numbers.
+• parseInt(): Creates a JavaScript integer by parsing a string and returning the number.
+• parseFloat(): Parses a string and returns a floating point number.
 
+The Document Object Model and JavaScript Syntax Overview
 
-The Document Object Model (DOM) and JavaScript syntax are two powerful tools that work together to bring web pages to life. Here's a breakdown of their teamwork:
+• The Document Object Model is an API for HTML and XML documents, providing a structural representation of the document and defining its access from script.
+• It connects web pages to scripts or programming languages, allowing a structured group of nodes.
 
-The DOM: Your Map to the Webpage
+Definition of JavaScript Objects
+• A JavaScript object is any scriptable HTML element within a document that can be accessed through the JavaScript language.
+• Core objects are not associated with HTML elements but with the language itself, while homemade objects are not.
+• Examples of JavaScript objects include the browser window, document, form, and image.
 
-Imagine the HTML that makes up your webpage as a complex blueprint.
-The DOM takes that blueprint and creates a tree-like structure in JavaScript's world.
-This structure lets JavaScript pinpoint and interact with specific elements on the page, like headings, paragraphs, or buttons.
-Each element in the DOM tree is like an object with its own properties (content, style) and methods (ways to change them).
-JavaScript Syntax: The Language of Interaction
+Property in JavaScript
+• Properties are characteristics of an object, similar to the relationship between an HTML tag attribute and the tag it belongs to.
+• A property can also be an object, similar to the relationship between an <option> tag and the <select> tag.
+• A document, form, and image are both properties of the document object but also objects themselves.
 
-JavaScript uses its own set of rules (syntax) to tell the browser what to do with the DOM.
-These rules involve things like variables, functions, and keywords.
-With JavaScript syntax, you can instruct the DOM to:
-Find elements: Search for specific parts of the webpage using their ID, tag name, or class.
-Change content: Update text, add new elements, or remove existing ones.
-Modify styles: Make elements bold, change their color, or hide them completely.
-Working Together: Building Dynamic Webpages
-
-By understanding the DOM structure, you can use JavaScript syntax to target specific elements.
-This allows you to create interactive features like:
-Updating content based on user input (e.g., search results).
-Adding animations and visual effects.
-Responding to user clicks and form submissions.
-In essence, the DOM provides the map, and JavaScript syntax gives you the instructions to navigate it and make the webpage dynamic and user-friendly.
-
+Methods in JavaScript
+• Methods are actions that can be applied directly to objects, causing a web page to react to the end user.
+• Method parameters are necessary for a method to accomplish its task.
+• Examples of JavaScript methods include alert(), write(), and focus().
  Activity 1
 
  DOM Syntax: The Language for Interacting with Webpages
 
-DOM (Document Object Model) syntax isn't a separate syntax from JavaScript itself. It's a way of using JavaScript's core syntax to interact with the structure and content of a webpage represented by the DOM. Here's how it works:
+DOM (Document Object Model) syntax isn't a separate syntax from JavaScript itself. It's a way of using JavaScript's core syntax to interact with the structure and content of a webpage represented by the DOM. 
+Here's how it works:
 
 1. The DOM: A Tree-Like Map
 
@@ -98,16 +106,14 @@ function handleClick() {
 
 // Add an event listener to the button
 buttonElement.addEventListener("click", handleClick);
-Use code with caution.
-Purpose of JavaScript
 
-JavaScript makes webpages interactive and dynamic. It goes beyond static HTML by allowing you to:
-
-Create dynamic content based on user input (e.g., search results)
-Add animations and visual effects
-Respond to user interactions (like button clicks, form submissions)
-Validate form data before submission
-Create interactive games and applications
+*Purpose of JavaScript
+javaScript makes webpages interactive and dynamic. It goes beyond static HTML by allowing you to:
+ - Create dynamic content based on user input (e.g., search results)
+ - Add animations and visual effects
+ - Respond to user interactions (like button clicks, form submissions)
+ - Validate form data before submission
+ - Create interactive games and applications
 
 Additional Javascript Tasks
 
