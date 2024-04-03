@@ -476,32 +476,40 @@ Creating an Image Slider
 
 
 Program Flowcharts
-The result of this design process is a program flowchart.
-The program flowchart illustrates the logic of the program and gives details on manipulating the data.
-It is less costly to determine, arrange and rearrange complex logic on a flowchart than to correct logic errors in an implemented program.
-A program flowchart is vital if the program is to be maintained easily and efficiently or if modifications are necessary.
+• The program flowchart illustrates the logic of the program and gives details on manipulating the data.
+• It is less costly to determine, arrange and rearrange complex logic on a flowchart than to correct logic errors in an implemented program.
+• A  program flowchart is vital if the program is to be maintained easily and efficiently or if modifications are necessary.
 
 Program flowchart symbols
-Program flowcharts are constructed with a set of standardised symbols that make it easier for persons other than the original programmer to read and maintain the program.
-The following pages contain examples of the most widely used program flowchart symbols.
+• Program flowcharts are constructed with a set of standardised symbols that make it easier for persons other than the original programmer to read and maintain the program.
+  • Start/End Symbol - The terminator symbol marks the starting or ending point of the system. It usually contains the word "Start" or "End."
+  • Action or Process Symbol - A box can represent a single step ("add two cups of flour"), or an entire sub-process ("make bread") within a larger process.
+  • Arrow - Indicates the flow of the algorithm pathways.
+  • Decision Symbol - A decision or branching point. Lines representing different decisions emerge from different points of the diamond.
+  • Input/Output Symbol - Represents material or information entering or leaving the system, such as customer order (input) or a product (output)
+  • Subroutine Symbol - Indicates a sequence of actions that perform a specific task embedded within a larger process. This sequence of actions could be described in more detail on a separate flowchart.
 
 Program Flowchart Best Practices
-While you might want to make your Program Flowchart a bit pleasant to the eye, it is advised that you use the standardized symbols.
-To make a flow chart your flow chart interesting you can use different colours for your symbols and/or labels below is a list of things that you should pay attention to when creating program flowchartsUsing appropriate symbols Flow direction that is inconsistent Colour schemes/colour coding.
-Having consistent symbol sizes Having consistent spacing between your symbols
+• While you might want to make your Program Flowchart a bit pleasant to the eye, it is advised that you use the standardized symbols.
+• To make a flow chart your flow chart interesting you can use different colours for your symbols and/or labels below is a list of things that you should pay attention to when creating program flowchartsUsing appropriate symbols Flow direction that is inconsistent Colour schemes/colour coding.
+• Having consistent symbol sizes Having consistent spacing between your symbols
 
 Javascript For Loop
-Loops can execute a block of code a number of times and are handy if you want to run the same code over and over again, each time with a different value.
-Often this is the case when working with arrays:Instead of writing:text += cars[0] + "<br>";text += cars[1] + "<br>";text += cars[2] + "<br>";text += cars[3] + "<br>";text += cars[4] + "<br>";text += cars[5] + "<br>";You can write:var i;for (i = 0; i < cars.length; i++) {  text += cars[i] + "<br>";} Different Kinds of Loops
+• Loops can execute a block of code a number of times and are handy if you want to run the same code over and over again, each time with a different value.
+• Often this is the case when working with arrays:Instead of writing:text += cars[0] + "<br>";text += cars[1] + "<br>";text += cars[2] + "<br>";text += cars[3] + "<br>";text += cars[4] + "<br>";text += cars[5] + "<br>";You can write:var i;for (i = 0; i < cars.length; i++) {  text += cars[i] + "<br>";}
 
 JavaScript supports different kinds of loops:
-for - loops through a block of code a number of times for/in - loops through the properties of an object for/of - loops through the values of an iterable object  while - loops through a block of code while a specified condition is true do/while - also loops through a block of code while a specified condition is true
+• for - loops through a block of code a number of times 
+• for/in - loops through the properties of an object 
+• for/of - loops through the values of an iterable object  
+• while - loops through a block of code while a specified condition is true 
+• do/while - also loops through a block of code while a specified condition is true
 
 
 The main thing I did to optimize my images was compress them.
-The service that I used to compress my images was Optimizilla, an easy-to-use website where you upload your images, select the level of compression you want, and then download the compressed image.
-I saw size decreases upwards of 70% for some of my resources, which goes a LONG way towards faster load times.
-Optimizilla is hardly the only choice for your image compression needs.
+• The service that I used to compress my images was Optimizilla, an easy-to-use website where you upload your images, select the level of compression you want, and then download the compressed image.
+• I saw size decreases upwards of 70% for some of my resources, which goes a LONG way towards faster load times.
+• Optimizilla is hardly the only choice for your image compression needs.
 
 
 
