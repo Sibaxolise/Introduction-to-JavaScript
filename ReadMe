@@ -23,12 +23,12 @@ Increment and Decrement in JS
 * Decrement opator
 * The increment operator ( -- ) is used to decrement the value of a variable in an expression by 1.
       * Pre-decrement
-         * In pre-increment, the increment operator is used as the prefix.
-         * Also known as prefix increment, the value is incremented first according to the precedence and then the less priority operations are done.
-      * Post-Increment
-         * In post-increment, the increment operator is used as the suffix of the operand.
-         * The increment operation is performed after all the other operations are done.
-         * It is also known as postfix increment.
+         * In pre-decrement, the decrement operator is used as the prefix.
+         * Also known as prefix decrement, the value is  decremented first according to the precedence and then the less priority operations are done.
+      * Post-decrement
+         * In post-decrement, the decrement operator is used as the suffix of the operand.
+         * The decrement operation is performed after all the other operations are done.
+         * It is also known as postfix decrement.
 Example
 Strings
 * Strings in JavaScript are primitive data types and immutable, used for displaying and working with text.
