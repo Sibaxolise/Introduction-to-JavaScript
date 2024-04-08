@@ -11,9 +11,25 @@ What is Javascript?
 * Compared to java and other programming languages, in JavaScript there is no specific way to differentiate a string to interger. In JS you use var then double qquotes to specify a string between interger
 
 Increment and Decrement in JS
-
-increment operator
-
+* increment operator
+  * The increment operator ( ++ ) is used to increment the value of a variable in an expression by 1.
+      * Pre-Increment
+         * In pre-increment, the increment operator is used as the prefix.
+         * Also known as prefix increment, the value is incremented first according to the precedence and then the less priority operations are done.
+      * Post-Increment
+         * In post-increment, the increment operator is used as the suffix of the operand.
+         * The increment operation is performed after all the other operations are done.
+         * It is also known as postfix increment.
+* Decrement opator
+* The increment operator ( -- ) is used to decrement the value of a variable in an expression by 1.
+      * Pre-decrement
+         * In pre-increment, the increment operator is used as the prefix.
+         * Also known as prefix increment, the value is incremented first according to the precedence and then the less priority operations are done.
+      * Post-Increment
+         * In post-increment, the increment operator is used as the suffix of the operand.
+         * The increment operation is performed after all the other operations are done.
+         * It is also known as postfix increment.
+Example
 Strings
 * Strings in JavaScript are primitive data types and immutable, used for displaying and working with text.
 * They are fundamental concepts in programming and can be created and viewed using single quotes, double quotes, or backticks.
