@@ -1,5 +1,18 @@
 What is Javascript?
+* JS is a programming language which allows you to program web browsers or servers and working with technologies like node. 
+* It creates interactivity and if it's working on a mobile device, then it is propably JavaScript.
+* JavaScript Variables The key for variables is to use them to store information/data. 
+* Variable is defined with akeyword "var".
+* JavaScript variables can be declared in four ways:
+* Automatically-> happens when you use a variable without explicitly declaring it, JavaScript automatically declares it.
+* Using var-> it is considered outdated and should only be used for older browsers.
+* Using Let-> allows you to declare variables that can be reassigned.
+* Using const-> declares variables with constant values that cannot be changed.
+* Compared to java and other programming languages, in JavaScript there is no specific way to differentiate a string to interger. In JS you use var then double qquotes to specify a string between interger
 
+Increment and Decrement in JS
+
+increment operator
 
 Strings
 * Strings in JavaScript are primitive data types and immutable, used for displaying and working with text.
