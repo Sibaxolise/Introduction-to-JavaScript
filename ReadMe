@@ -535,10 +535,75 @@ JavaScript supports different kinds of loops:
 • do/while - also loops through a block of code while a specified condition is true
 
 
-The main thing I did to optimize my images was compress them.
-• The service that I used to compress my images was Optimizilla, an easy-to-use website where you upload your images, select the level of compression you want, and then download the compressed image.
-• I saw size decreases upwards of 70% for some of my resources, which goes a LONG way towards faster load times.
-• Optimizilla is hardly the only choice for your image compression needs.
+The main thing to optimize images is to compress them.
+• The service used to compress images is Optimizilla, an easy-to-use website where you upload your images, select the level of compression you want, and then download the compressed image.
+• Size decreases upwards of 70% for some of the resources, which goes a LONG way towards faster load times.
+
+videos
+Vimeo offers an excellent platform for hosting videos where they will degrade video quality for slower connections and compress your videos to optimize performance.
+You can also host your videos on Youtube and then use this youtube-dl tool to download them from Youtube while configuring the videos to your website's needs.
+
+General Website Optimization
+Gzip
+gzip is a file compression format that most browsers understand and that can run behind the scenes without requiring the user to even know it's happening.
+Depending on where you are hosting your application, gzipping may be as simple as flipping a configuration switch to specify that you want your server to gzip files when sending them out.
+As it turns out, there are packages to add compression explicitly in your server code, which allows you to reap the benefits of gzipping in exchange for only a few lines of code.
+By using this compression middleware, tiu will be able to decrease the size of Javascript and CSS bundles by 75%.It is worthwhile to check if your hosting service provides a gzip option.
+If it does not, look into how to add gzipping to your server-side code.
+
+Minifying
+Minification is the process of removing unnecessary characters from code without affecting its functionality (whitespace, new-line characters, and so on).
+This allows you to decrease the size of the file you are transporting across the internet.
+It's also useful for obfuscating your code, which makes it harder for sneaky hackers to detect security weak-points.
+These days, minifying is usually done as part of the build process with Webpack or Gulp or some alternative.
+These build tools can have a bit of a learning curve, however, so if you are looking for easier alternatives, Google recommends HTML-Minifier for HTML, CSSNano for CSS, and UglifyJS for Javascript.
+
+Browser-Caching
+Storing static files in the browser's cache is a very efficient way to increase the speed of your website, especially on return visits from the same client.
+
+Content Distribution Network
+Real-life image of a CDN, courtesy of Pexels.
+A content distribution network, or CDN, is a network that allows users from all over the world to be geographically closer to your content.
+If a user has to load a large image from Japan, but your server is in the United States, this will take longer than if you had a server in Tokyo.
+A CDN allows you to take advantage of a bunch of proxy servers located all over the world, allowing your content to be loaded more quickly regardless of where your end-user is located.
+Having one of these bad boys on your website is imperative if you are planning to have a worldwide audience.
+
+Miscellaneous
+Here's a couple more tips to squeeze out even more juice:Optimize your website to load "above-the-fold" content first to increase the perceived performance of your site.
+One common way to do this is by lazy-loading images that don't show up on the landing page.
+Unless your application depends on Javascript to render HTML, such as a website built with Angular or React, then it is likely safe to load your script tags at the bottom of the body section of your HTML file.
+This could affect your time-to-interactive, however, so it is NOT a technique I would recommend for every situation
+
+Search Engine Optimization
+Search engine basics
+Search engines are answer machines.
+They scour billions of pieces of content and evaluate thousands of factors to determine which content is most likely to answer your query.
+Search engines do all of this by discovering and cataloguing all available content on the Internet (web pages, PDFs, images, videos, etc.)
+via a process known as "crawling and indexing," and then ordering it by how well it matches the query in a process we refer to as "ranking."
+
+Which search results are "organic"?
+Organic search results are the ones that are earned through effective SEO, not paid for (i.e. not advertising).
+But with the way search has changed, how can we spot organic results today?Today, search engine results pages — often referred to as "SERPs" — are filled with both more advertising and more dynamic organic results formats (called "SERP features") than we've ever seen before.
+It's important to remember that search engines make money from advertising.
+Some SERP features on Google are organic and can be influenced by SEO.
+People Also Ask" boxes).It's worth noting that there are many other search features that, even though they aren't paid advertising, can't typically be influenced by SEO.
+
+Why SEO is important
+While paid advertising, social media, and other online platforms can generate traffic to websites, the majority of online traffic is driven by search engines.
+In a nutshell: SEO has ~20X more traffic opportunity than PPC on both mobile and desktop.
+SEO is also one of the only online marketing channels that, when set up correctly, can continue to pay dividends over time.
+If you provide a solid piece of content that deserves to rank for the right keywords, your traffic can snowball over time, whereas advertising needs continuous funding to send traffic to your site.
+Optimizing your site will help deliver better information to search engines so that your content can be properly indexed and displayed within search results.
+
+
+
+
+
+
+
+
+
+
 
 
 
